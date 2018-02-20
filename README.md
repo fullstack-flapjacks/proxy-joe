@@ -1,2 +1,3 @@
 # proxy-joe
-proxy server for toe
+proxy server for the menu component
+
