@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render a title 1`] = `
+<div>
+  <h1
+    style={
+      Object {
+        "borderBottom": "1px solid black",
+        "marginBottom": "15px",
+        "marginLeft": "300px",
+        "marginRight": "700px",
+        "marginTop": "15px",
+      }
+    }
+  >
+    mockData
+  </h1>
+</div>
+`;
+
+exports[`render the description 1`] = `""`;
+
+exports[`render the map 1`] = `
+<span>
+  <iframe />
+</span>
+`;
+
+exports[`render the ratings 1`] = `
+<div>
+  <table
+    style={
+      Object {
+        "cellpadding": "50",
+        "marginBottom": "15px",
+        "marginLeft": "300px",
+        "marginRight": "700px",
+        "marginTop": "15px",
+      }
+    }
+  >
+    <tbody>
+      <tr>
+        <td>
+          <img
+            src="https://toyotaescondido.files.wordpress.com/2012/04/5_stars1.jpg"
+            style={
+              Object {
+                "height": "20px",
+                "width": "80px",
+              }
+            }
+          />
+        </td>
+        <td
+          style={
+            Object {
+              "fontSize": "14px",
+              "fontWeight": "bold",
+              "padding": "4px",
+            }
+          }
+        />
+        <td>
+          <img
+            src="http://cdn.osxdaily.com/wp-content/uploads/2014/11/mac-messages-icon-300x276.jpg"
+            style={
+              Object {
+                "height": "20px",
+                "width": "20px",
+              }
+            }
+          />
+        </td>
+        <td
+          style={
+            Object {
+              "fontSize": "14px",
+              "fontWeight": "bold",
+              "padding": "4px",
+            }
+          }
+        >
+           reviews
+        </td>
+        <td>
+          <img
+            src="https://image.flaticon.com/icons/svg/631/631200.svg"
+            style={
+              Object {
+                "height": "20px",
+                "width": "20px",
+              }
+            }
+          />
+        </td>
+        <td
+          style={
+            Object {
+              "fontSize": "14px",
+              "fontWeight": "bold",
+              "padding": "4px",
+            }
+          }
+        />
+        <td>
+          <img
+            src="https://image.flaticon.com/icons/svg/0/97.svg"
+            style={
+              Object {
+                "height": "20px",
+                "width": "20px",
+              }
+            }
+          />
+        </td>
+        <td
+          style={
+            Object {
+              "fontSize": "14px",
+              "fontWeight": "bold",
+              "padding": "4px",
+            }
+          }
+        />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

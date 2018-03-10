@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for client/src/components/LeftAbout.jsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">client/src/components</a> LeftAbout.jsx
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>2/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>2/2</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+//left column in the about section of the component
+const LeftAbout = (props) =&gt; (
+  &lt;span&gt;
+    &lt;p className="diningStyle" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/701/701965.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Dining Style&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;{props.restaurant.diningStyle}&lt;/p&gt;
+    &lt;p className="cuisine" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/0/97.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Cuisine&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;{props.restaurant.cuisines}&lt;/p&gt;
+    &lt;p className="hoursOfOperations" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/59/59252.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Hours of Operation&lt;/p&gt;
+    &lt;p className="monday" style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Monday - Thursday&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Lunch: {props.restaurant.hoursOfOperations.monday.lunch}&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Dinner: {props.restaurant.hoursOfOperations.monday.dinner}&lt;/p&gt;
+    &lt;p className="friday" style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Friday&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Lunch: {props.restaurant.hoursOfOperations.friday.lunch}&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Dinner: {props.restaurant.hoursOfOperations.friday.dinner}&lt;/p&gt;
+    &lt;p className="saturday" style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Saturday&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Lunch: {props.restaurant.hoursOfOperations.saturday.lunch}&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;Dinner:{props.restaurant.hoursOfOperations.saturday.dinner}&lt;/p&gt;
+    &lt;p className="phone" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/684/684812.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Phone Number&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;{props.restaurant.phoneNumber}&lt;/p&gt;
+    &lt;p className="website" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/109/109476.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Website&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;&lt;a href={props.restaurant.website} style={{color: 'red'}}&gt;{props.restaurant.website}&lt;/a&gt;&lt;/p&gt;
+    &lt;p className="payment" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/271/271035.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Payment&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;AMEX, Visa, Discover, Master&lt;/p&gt;
+    &lt;p className="dressCode" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/141/141585.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Dress Code&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;{props.restaurant.dressCode}&lt;/p&gt;
+    &lt;p className="chef" style={{fontWeight: 'bold', fontSize: '14px'}}&gt;&lt;img src='https://image.flaticon.com/icons/svg/129/129226.svg' style={{width: '20px', height: '20px'}}&gt;&lt;/img&gt; Executive Chef&lt;/p&gt;
+    &lt;p style={{fontSize: '14px', marginLeft: '1.7em'}}&gt;{props.restaurant.executiveChef}&lt;/p&gt;
+  &lt;/span&gt;
+);
+&nbsp;
+export default LeftAbout;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Mar 05 2018 16:38:03 GMT-0800 (PST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>
