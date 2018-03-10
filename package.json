@@ -1,15 +1,20 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "proxyjoe",
+  "version": "0.1.0",
+  "description": "The proxy server for fullstack flapjacks",
+  "author": "Joe T.",
+  "license": "none",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon proxy/server.js"
   },
   "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.17.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styleReserve.css">
+  <link rel="stylesheet" href="/styleSuggest.css">
+  <link rel="stylesheet" href="/styleMenu.css">
+  <link rel="stylesheet" href="/styleReview.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <title>FullStack Flapjacks</title>
+</head>
+
+<body>
+  <div id='overview'>
+    <div id="info"></div>
+    <div id="reservations"></div>
+    <div id="suggested"></div>
+    <div id="menu"></div>
+    <div id="reviews"></div>
+  </div>
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+  <script src="http://localhost:1127/bundle.js"></script>
+  <script src="http://localhost:2003/bundle.js"></script>
+  <script src="http://localhost:3001/bundle.js"></script>
+  <script src="http://localhost:6600/bundle.js"></script>
+  <script src="http://localhost:4004/main.bundle.js"></script>
+  <!-- <script src="http://localhost:4004/cache.worker.bundle.js"></script> -->
+  <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+  <script>
+    const e = React.createElement;
+    const id = {id: window.location.pathname};
+    ReactDOM.render(
+      e(Info, id),
+      document.getElementById('info')
+    );
+    ReactDOM.render(
+      e(Reservations, id),
+      document.getElementById('reservations')
+    );
+    ReactDOM.render(
+      e(Menu, id),
+      document.getElementById('menu')
+    );
+    ReactDOM.render(
+      e(Suggestions, id),
+      document.getElementById('suggested')
+    );
+    ReactDOM.render(
+      e(Reviews, id),
+      document.getElementById('reviews')
+    );
+  </script>
+</body>
+
+</html>

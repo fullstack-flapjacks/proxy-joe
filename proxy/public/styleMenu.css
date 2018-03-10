@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "BrandonText";
+  src: url("/fonts/HVD Fonts - BrandonText-Regular.otff") format("otff"),
+       url("/fonts/HVD Fonts - BrandonText-Medium.otf") format("otf"),
+       url("/fonts/HVD Fonts - BrandonText-Bold.otf") format("otf"),
+       url("/fonts/HVD Fonts - BrandonText-Thin.otf") format("otf");
+}
+
+#menu {
+  font-family: 'BrandonText','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto',Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.menu-nav {
+  margin-top: calc(-1 * 1rem);
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.menu-title {
+  line-height: 1.33;
+  color: rgb(51, 51, 51);
+  border-bottom: 1px solid rgb(225, 225, 225);
+  padding-bottom: 1rem;
+  margin: 0 0 1rem;
+}
+
+#menu-category-title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+.menu-category {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  margin: 0;
+  display: block;
+  column-count: 2;
+  column-gap: 2rem;
+}
+
+.menu-item {
+  font-size: 0.875rem;
+  line-height: 1.43;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+}
+.menu-item-title {
+  font-weight: 500;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.menu-item-price {
+  float: right;
+}
+
+.menu-item-desc {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+.menu-button {
+  font-size: 0.875rem;
+  line-height: 1.43;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  margin-right: 1rem;
+  background-color: #fff;
+  margin-top: 1rem;
+  cursor: pointer
+}
+
+button:hover {
+  border: 2px solid #da3743;
+}
+
+button:focus {
+  border: 2px solid #da3743;
+  outline:0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-small;
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(51, 51, 51);
+}

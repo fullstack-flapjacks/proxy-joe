@@ -1,0 +1,39 @@
+#overview {
+  display: block;
+
+}
+
+#info {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+#reservations {
+
+}
+
+#suggested {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+#reviews {
+  height: 100%;
+}
+
+#menu {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  border: 2px solid #da3743;
+}
+
+button:focus {
+  border: 2px solid #da3743;
+  outline:0;
+}
